@@ -1,0 +1,8 @@
+C:\CODE\CS50\CS50\Starter-Warehouse\WarehouseSystem\WarehouseSystem\bin\Debug\WarehouseSystem.exe.config
+C:\CODE\CS50\CS50\Starter-Warehouse\WarehouseSystem\WarehouseSystem\bin\Debug\WarehouseSystem.exe
+C:\CODE\CS50\CS50\Starter-Warehouse\WarehouseSystem\WarehouseSystem\bin\Debug\WarehouseSystem.pdb
+C:\CODE\CS50\CS50\Starter-Warehouse\WarehouseSystem\WarehouseSystem\obj\Debug\WarehouseSystem.csproj.AssemblyReference.cache
+C:\CODE\CS50\CS50\Starter-Warehouse\WarehouseSystem\WarehouseSystem\obj\Debug\WarehouseSystem.csproj.SuggestedBindingRedirects.cache
+C:\CODE\CS50\CS50\Starter-Warehouse\WarehouseSystem\WarehouseSystem\obj\Debug\WarehouseSystem.csproj.CoreCompileInputs.cache
+C:\CODE\CS50\CS50\Starter-Warehouse\WarehouseSystem\WarehouseSystem\obj\Debug\WarehouseSystem.exe
+C:\CODE\CS50\CS50\Starter-Warehouse\WarehouseSystem\WarehouseSystem\obj\Debug\WarehouseSystem.pdb

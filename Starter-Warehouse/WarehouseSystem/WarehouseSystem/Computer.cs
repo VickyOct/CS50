@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace WarehouseSystem
 {
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            
-        }
-    }
+	public class Computer : Product
+	{
+		public Computer(string id, string type, double price, int number) : base(id, type, price, number)
+		{
+		}
+	}
+
+
 }
