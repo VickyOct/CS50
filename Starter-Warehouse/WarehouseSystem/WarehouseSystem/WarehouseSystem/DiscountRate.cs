@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace WarehouseSystem
+{
+    class DiscountRate : Discount
+    {
+        public double Rate { get; set; }
+
+        public DiscountRate(double rate)
+        {
+             Rate = rate;
+        }
+        public override double GetTotalMoney(double amount)
+        {
+            return amount * Rate;
+        }
+    }
+}

@@ -30,12 +30,12 @@ namespace WarehouseSystem
 			myWarehouse.Add(new List<Product>());
 		}
 		
-		public Product[] PickProduct(Product product, int number)
+		public Product[] PickProduct(string type, int number)
 		{
 			Product[] products = new Product[number];
 			for (int i = 0; i < number; i++)
             {
-				switch (product.Type)
+				switch (type)
 				{
 					case "Acer":
 						products[i] = myWarehouse[0][0];
@@ -52,21 +52,21 @@ namespace WarehouseSystem
 			return products;
 		}
 
-		public void AddProduct(Product product, int number)
-		{
+		//public void Product(Product product, int number)
+		//{
 
-		}
+		//}
 
 		/// <summary>
 		/// Add Products
 		/// </summary>
 		/// <param name="product">type</param>
 		/// <param name="number">count</param>
-		public void LoadProduct(Product product, int number)
+		public void AddProduct(string type, int number)
 		{
 			for (int i = 0; i < number; i++)
 			{
-				switch (product.Type)
+				switch (type)
 				{
 					case "Acer":
 						myWarehouse[0].Add(new Computer(Guid.NewGuid().ToString(), "Acer", 7000, number));

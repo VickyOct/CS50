@@ -10,7 +10,11 @@ namespace WarehouseSystem
     {
         static void Main(string[] args)
         {
-            
+            SuperMarket supmarket = new SuperMarket();
+            supmarket.ShowProd();
+
+            supmarket.Sell();
+            Console.ReadKey();
         }
     }
 }
